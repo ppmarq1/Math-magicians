@@ -18,11 +18,6 @@
 
 - git clone https://github.com/ppmarq1/Math-magicians.git
 
-# Usage
-
-- Usage: cd <https://github.com/ppmarq1/Math-magicians.git>, npm install, npm start.
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 

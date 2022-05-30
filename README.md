@@ -18,17 +18,12 @@
 
 - git clone https://github.com/ppmarq1/Math-magicians.git
 
-
 ### Prerequisites
 
 - Have a working and updated browser
 - Have a local version control like **git** install on your computer
 - Have an account and sign in on GitHub, as online/remote version control system
 - Download waves to check project accessibilty
-
-### Setup
-
--Clone the git repo using this command: **git clone github.com/ppmarq1/Math-magicians.git**
 
 ### Install
 

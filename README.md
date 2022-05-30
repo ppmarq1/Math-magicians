@@ -41,10 +41,6 @@
 - cd my-app
 - npm start
 
-### Usage
-
-- Usage: cd <https://github.com/ppmarq1/Math-magicians.git>, npm install, npm start.
-
 ### Run tests
 
 - **npx hint .** : To test html codes

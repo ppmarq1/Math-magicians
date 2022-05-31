@@ -17,7 +17,7 @@ body {
 .displayInputs {
   background-color: #858693;
   width: 40%;
-  height: 90px;
+  height: 80px;
   font-size: 40px;
   display: flex;
   align-items: flex-end;
@@ -35,7 +35,7 @@ body {
   font-size: 30px;
   background-color: #e0e0e0;
   border: 1px solid #b1adad;
-  height: 99px;
+  height: 97px;
 }
 
 .btn:active {
@@ -43,7 +43,7 @@ body {
 }
 
 .btnZero {
-  height: 99px;
+  height: 97px;
   font-size: 30px;
   background-color: #e0e0e0;
   border: 1px solid #b1adad;

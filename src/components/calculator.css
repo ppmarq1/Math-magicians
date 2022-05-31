@@ -50,6 +50,10 @@ body {
   grid-column: 1/3;
 }
 
+.btnZero:active {
+  background-color: #9c9898;
+}
+
 .btnclick {
   background-color: #f5913e;
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Limelight&family=Tiro+Telugu&family=Ubuntu:wght@500&display=swap');
 
 body {
-  font-family: 'Tiro Telugu', serif;
+  font-family: 'Inter', serif;
   padding: 0;
   margin: 0;
   background-color: #fff;
@@ -23,14 +23,14 @@ body {
   height: 90px;
 }
 
-p {
+.showResult {
   font-size: 40px;
   display: flex;
   padding-right: 10px;
   align-items: flex-end;
   justify-content: flex-end;
   color: #d1cdcd;
-}
+} 
 
 .calcDiv {
   display: grid;

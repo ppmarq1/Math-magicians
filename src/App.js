@@ -17,8 +17,8 @@ class RenderPage extends React.PureComponent {
         <Router>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
+            <Route path="/" element={<Home />} />
             <Route path="/quotes" element={<Quotes />} />
           </Routes>
         </Router>

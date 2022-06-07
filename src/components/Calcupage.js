@@ -1,4 +1,5 @@
 import React from 'react';
+import './Calcupage.css';
 
 export default function CalcPageText() {
   return (

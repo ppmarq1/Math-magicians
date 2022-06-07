@@ -1,7 +1,11 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Quotes from './components/quote';
+import NavBar from './components/navbar';
+import Home from './components/home';
 
-class RenderCalc extends React.Component {
+class RenderPage extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {};
@@ -9,8 +13,17 @@ class RenderCalc extends React.Component {
 
   render() {
     return (
-      <Calculator />
+      <>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/quotes" element={<Quotes />} />
+          </Routes>
+        </Router>
+      </>
     );
   }
 }
-export default RenderCalc;
+export default RenderPage;

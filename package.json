@@ -10,6 +10,7 @@
     "big.js": "^6.1.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -42,7 +43,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.17.12",
     "@babel/preset-react": "^7.17.12",
-    "eslint": "^7.32.0",
+    "eslint": "^8.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",

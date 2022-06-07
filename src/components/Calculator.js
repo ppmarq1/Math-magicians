@@ -20,8 +20,10 @@ const Calculator = () => {
 
   return (
     <div className="mainContainer">
+      {/* eslint-disable-next-line react/no-unescaped-entities */}
+      <h2>Let&apos;s do some Math!</h2>
       <div className="displayInputs">
-        <p>
+        <p className="showResult">
           {total}
           {' '}
           {operation}

@@ -1,0 +1,10 @@
+.quotesParagraph {
+  padding: 5%;
+  font-size: 30px;
+}
+
+.paragraphQuote {
+  font-family: 'Inter', serif;
+  font-size: 30px;
+  color: black;
+}

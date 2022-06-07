@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+body {
+  font-family: 'Inter', serif;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.homeParagraph {
+  padding: 2%;
+  font-size: 25px;
+}
+
+.paragraph {
+  padding: 2%;
+  font-size: 20px;
+}
+
+p {
+  font-size: 50px;
+  padding: 3%;
+  display: flex;
+  color: black;
+}
+
+h2 {
+  padding: 3%;
+  font-size: 30px;
+}

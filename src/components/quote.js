@@ -4,7 +4,7 @@ import './quote.css';
 function Quotes() {
   return (
     <>
-      <main className="quotesParagraph">
+      <main>
         <p className="paragraphQuote">
           Mathematics is not about numbers, equations, computations
           or algorithms: It is about understanding. - William Paul, Thurston

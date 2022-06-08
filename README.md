@@ -7,7 +7,7 @@
 ## Built With
 
 - Major languages: HTML CSS & JavaScript
-- Framework (Library): React
+- Framework(Library): React
 - Technologies used
 
 ## Getting Started

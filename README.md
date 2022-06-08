@@ -10,6 +10,11 @@
 - Framework(Library): React
 - Technologies used
 
+## Live Demo 
+
+Live Demo https://62a0bb39f7ea070a0140c8b1--sprightly-faun-8cce82.netlify.app/
+
+
 ## Getting Started
 
 - To get a local copy up and running follow these simple example steps.

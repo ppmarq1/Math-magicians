@@ -93,3 +93,28 @@ describe('Functions test', () => {
   });
 });
 
+describe('component test', () => {
+  it('Calculator component should perform the calculations correctly on initial run', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Quote component should perform correctly on initial run', () => {
+    const tree = renderer.create(<Quotes />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('NavBar component should perform correctly on initial run', () => {
+    const tree = renderer.create(<Router><NavBar /></Router>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Home component should perform correctly on initial run', () => {
+    const tree = renderer.create(<Home />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  test('Simulation of user clicking button 9 twice', () => {
+    render(<Calculator />);
+    const buttonEl = screen.getByText(/9/i);
+    userEvent.click(buttonEl);
+    userEvent.click(buttonEl);
+    expect(screen.getByText(/99/i)).toBeInTheDocument();
+  });
+});

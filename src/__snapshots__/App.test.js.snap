@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test Calculator component should perform the calculations correctly on initial run 1`] = `
+<div
+  className="mainContainer"
+>
+  <h2>
+    Let's do some Math!
+  </h2>
+  <div
+    className="displayInputs"
+  >
+    <p
+      className="showResult"
+    >
+      0
+       
+       
+       
+    </p>
+  </div>
+  <div
+    className="calcDiv"
+  >
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="AC"
+    >
+      AC
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="+/-"
+    >
+      +/-
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="%"
+    >
+      %
+    </button>
+    <button
+      className="btn btnclick"
+      onClick={[Function]}
+      type="button"
+      value="÷"
+    >
+      ÷
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      className="btn btnclick"
+      onClick={[Function]}
+      type="button"
+      value="x"
+    >
+      x
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      className="btn btnclick"
+      onClick={[Function]}
+      type="button"
+      value="-"
+    >
+      -
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      className="btn btnclick"
+      onClick={[Function]}
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      className="btnZero"
+      onClick={[Function]}
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="."
+    >
+      .
+    </button>
+    <button
+      className="btn btnclick"
+      onClick={[Function]}
+      type="button"
+      value="="
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`component test Home component should perform correctly on initial run 1`] = `
+<div
+  className="homeParagraph"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <br />
+  <br />
+  <p
+    className="paragraph"
+  >
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+  <br />
+  <br />
+  <p
+    className="paragraph"
+  >
+    "Lorem ipsum dolor sit amet,Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  </p>
+</div>
+`;
+
+exports[`component test NavBar component should perform correctly on initial run 1`] = `
+<header
+  className="nav"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav
+    className="nav-links"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/calculator"
+      onClick={[Function]}
+    >
+       Calculator
+    </a>
+    <a
+      href="/quotes"
+      onClick={[Function]}
+    >
+       Quote
+    </a>
+  </nav>
+</header>
+`;
+
+exports[`component test Quote component should perform correctly on initial run 1`] = `
+<main>
+  <p
+    className="paragraphQuote"
+  >
+    Mathematics is not about numbers, equations, computations or algorithms: It is about understanding. - William Paul, Thurston
+  </p>
+</main>
+`;
